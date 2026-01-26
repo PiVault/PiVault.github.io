@@ -1,3 +1,5 @@
-/.quarto/
-venv/
-.venv/
+ /.quarto/
+ venv/
+ .venv/
+.Rhistory
+_site
