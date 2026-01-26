@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "PiVault"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Projects
+        menu: 
+        - href: Cyberdeck.qmd
+          text: Cyberdeck
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: darkly
+    toc: true

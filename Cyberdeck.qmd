@@ -1,0 +1,106 @@
+---
+title: " CyberDeck"
+---
+
+<br>
+
+A cyberdeck is a custom-built, portable computer, often combining a single-board computer (e.g., a Raspberry Pi), display, keyboard, battery, and peripherals (e.g., camera, speakers) into a single, purpose-driven unit.
+Cyberdecks are often inspired by cyberpunk aesthetics.
+
+In this project, I will be creating my first version of a cyberdeck. This first version will not particularly be a complex one since its the first one. The aim here is "Be as simple as possible".
+
+Since my first priority is simplicity, I will be skipping anything that require soldering, unless its absolutly necessary. I will be also settling for a straight forward case with an attempt to make it look cyberpunky.
+
+---
+
+## Materials
+
+Materials used in this project:
+
+- Raspberry Pi 4B
+- Battery with a 5v/3A output
+- 5 inch display
+- Keyboard
+- Case: was 3D printed
+
+---
+### Raspberry Pi
+
+This is a Raspberry Pi 4B with 4GB LPDDR4 RAM, supports WiFi and Bluetooth, Gigabit Ethernet, two USB 3.0 and two USB 2.0 ports. It also contains dual micro HDMI and a USB-C power port and 40 pin GPIO header which I will be relocating in this Cyberdeck (See Assembly).
+
+![](images/20251221_133951.jpg){width="50%"}
+
+### Battery
+
+Starting with the power supply, depends on which battery you choose, you will have different configuration. In my case I chose the 5000 mAh PiSugar 2 plus battery.
+
+::: {.columns}
+::: {.column width="48%"}
+![](images/20251221_135414.jpg){width=100%}
+:::
+
+::: {.column width="4%"}
+<!-- empty column = gap -->
+:::
+
+::: {.column width="48%"}
+![](images/20251221_135309.jpg){width=100%}
+:::
+:::
+
+As seen in the pictures above, this battery allows me to connect the PCB board directly on the Pi itself from below, and placing the battery on the PCB board stabilizing it with a magnet. However, I will be putting the battery itself next to the Raspberry Pi, rendering the magnets useless.
+
+### Display
+
+For the display I am using the Waveshare 5-inch DSI touch screen with 800 x 480 resolution.
+
+::: {.columns}
+::: {.column width="48%"}
+![](images/20251221_134556.jpg){width=100%}
+:::
+
+::: {.column width="4%"}
+<!-- empty column = gap -->
+:::
+
+::: {.column width="48%"}
+![](images/20251221_134314.jpg){width=100%}
+:::
+:::
+
+
+#### Keyboard
+
+I used the Rii X1 Mini Wireless Keyboard with a Touchpad.
+
+![](images/20251221_134835.jpg){width="50%"}
+
+
+##### Case: 3D Printed
+
+Here you can find the STL files, feel free to use and modify them.
+
+Obviously, as this is the first version and my first time doing such thing, the case is not the most fancy, it is a regular streight forward lame one with some flaws but it does the job!
+More sofisticated versions will be created in the future.
+
+## Assembly
+
+Below in the figure 1 you can see
+
+## Code
+
+Here you will find the code that you need for a couple of parts.
+
+### Code Needed for the Display
+
+In order to regulate the brightness on the display you need to open the terminal on your Pi and copy these lines
+
+#### Code Needed for the PiSugar
+
+To be abel to configure your the button on the PiSugar you will need to open
+
+
+
+
+
+

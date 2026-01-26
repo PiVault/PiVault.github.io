@@ -1,0 +1,19 @@
+---
+title: " Welcome to PiVault"
+---
+
+<br>
+
+## Embedded System
+
+Embedded System is a combination of computer hardware and software designed to perform a specific, dedicated function. It can be a small, independent system or a large integrated system, typically operating in real time and without dependence on internet connectivity.
+
+
+## Internet of Things (IoT)
+
+The Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications.
+
+
+
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
