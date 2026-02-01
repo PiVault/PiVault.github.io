@@ -1,5 +1,5 @@
 ---
-title: " CyberDeck"
+title: "CyberDeck"
 ---
 
 <br>
@@ -110,6 +110,7 @@ For the Pi and the Pisugar PCB board, on the inner side (you cant see it here), 
 ::: {.column width="48%"}
 ![](images/20260201_120312.jpg){width=100%}
 :::
+:::
 
 In the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going threw an opening to connect on the other side with the display.
 
@@ -196,4 +197,4 @@ Pushing these buttons with your finger can be annoying, so using a screw driver 
 
 ## Limitations & Future Fixes
 
-As this is the first version 
+

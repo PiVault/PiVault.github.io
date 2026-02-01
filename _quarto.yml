@@ -9,9 +9,9 @@ website:
       - href: index.qmd
         text: Home
       - text: Projects
-        menu: 
-        - href: Cyberdeck.qmd
-          text: Cyberdeck
+        menu:
+          - href: Cyberdeck.qmd
+            text: Cyberdeck
       - href: about.qmd
         text: About
 
@@ -19,3 +19,5 @@ format:
   html:
     theme: darkly
     toc: true
+    toc-depth: 3
+

@@ -4,14 +4,24 @@
     "href": "index.html#embedded-system",
     "title": "Welcome to PiVault",
     "section": "Embedded System",
-    "text": "Embedded System\nEmbedded System is a combination of computer hardware and software designed to perform a specific, dedicated function. It can be a small, independent system or a large integrated system, typically operating in real time and without dependence on internet connectivity."
+    "text": "Embedded System\nEmbedded System is a combination of computer hardware and software designed to perform a specific, dedicated function. It can be a small, independent system or a large integrated system, typically operating in real time and without dependence on internet connectivity.",
+    "crumbs": [
+      "Home",
+      "PiVault",
+      "Welcome to PiVault"
+    ]
   },
   {
     "objectID": "index.html#internet-of-things-iot",
     "href": "index.html#internet-of-things-iot",
     "title": "Welcome to PiVault",
     "section": "Internet of Things (IoT)",
-    "text": "Internet of Things (IoT)\nThe Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications."
+    "text": "Internet of Things (IoT)\nThe Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications.",
+    "crumbs": [
+      "Home",
+      "PiVault",
+      "Welcome to PiVault"
+    ]
   },
   {
     "objectID": "Cyberdeck.html",
@@ -32,7 +42,7 @@
     "href": "Cyberdeck.html#assembly",
     "title": "CyberDeck",
     "section": "Assembly",
-    "text": "Assembly\n\nPi & Battery\nIt is a bit narrow while assembeling it but it works. You have to connect everything outside and put all the parts in one go.\nIn the first picture below, you can see the battery wires are going to the left, there the battery will sitting minding its own buissnes.\nFor the Pi and the Pisugar PCB board, on the inner side (you cant see it here), there are two wholes to screw it in its place.\n\n\n\n\n\n\n\nIn the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going threw an opening to connect on the other side with the display.\nKeyboard & Display\nHere as you can see the keyboard is inserted from the side and then secured by this small printed piece (see Pic.1). A side view is shown in Pic.2 of how this piece would look like.\nFor the display it is mounted on a mount printed for this diplay specifically, that is then mouted on the main deck with four screws as seen in Pic.1.\n\n\n\n\n\n\n\n\n\n\nGPIO pins\nThe purpose of the opening that you can see next to the sceen, is to relocate the GPIO pins to have access to them in a convienient way. In the pictures you can see how it would look.\n\n\n\n\n\n\n\n\n\n\nEnd Result\nHere you can see the end result from all sides.\nAs you can see there is no buttons is this project, I just kept an opening to the Pisugar buttons. There is a button on the PCB of the Pisugar that you can configure and for now I confugured it to shutdown when double clicked.\nTo turn on the Pi also on the PCB of the Pisugar there is an ON/OFF switch that when tured on will start the Pi.\n\n\n\n\n\n\n\n\n\nPushing these buttons with your finger can be annoying, so using a screw driver like the one shown in the picture or any pen works fine.\n\n\n\n\n\n\n\n\n\n\nLimitations & Future Fixes\nAs this is the first version"
+    "text": "Assembly\n\nPi & Battery\nIt is a bit narrow while assembeling it but it works. You have to connect everything outside and put all the parts in one go.\nIn the first picture below, you can see the battery wires are going to the left, there the battery will sitting minding its own buissnes.\nFor the Pi and the Pisugar PCB board, on the inner side (you cant see it here), there are two wholes to screw it in its place.\n\n\n\n\n\n\n\n\n\nIn the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going threw an opening to connect on the other side with the display.\n\n\nKeyboard & Display\nHere as you can see the keyboard is inserted from the side and then secured by this small printed piece (see Pic.1). A side view is shown in Pic.2 of how this piece would look like.\nFor the display it is mounted on a mount printed for this diplay specifically, that is then mouted on the main deck with four screws as seen in Pic.1.\n\n\n\n\n\n\n\n\n\n\n\nGPIO pins\nThe purpose of the opening that you can see next to the sceen, is to relocate the GPIO pins to have access to them in a convienient way. In the pictures you can see how it would look."
   },
   {
     "objectID": "Cyberdeck.html#code",
@@ -60,6 +70,6 @@
     "href": "Cyberdeck.html#limitations-future-fixes",
     "title": "CyberDeck",
     "section": "Limitations & Future Fixes",
-    "text": "Limitations & Future Fixes\nAs this is the first version"
+    "text": "Limitations & Future Fixes"
   }
 ]
