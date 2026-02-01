@@ -1,5 +1,10 @@
- /.quarto/
- venv/
- .venv/
+# Quarto
+.quarto/
+_site/
+
+# Python virtual environments
+.venv/
+venv/
+
+# R
 .Rhistory
-_site
