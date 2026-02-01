@@ -82,7 +82,7 @@ I used the Rii X1 Mini Wireless Keyboard with a Touchpad.
 
 Here you can find the STL files, feel free to use and modify them.
 
-
+[Download STL files](https://github.com/PiVault/PiVault.github.io/tree/main/stl)
 
 Obviously, as this is the first version and my first time doing such thing, the case is not the most fancy, it is a regular streight forward lame one with some flaws but it does the job!
 More sofisticated versions will be created in the future.
