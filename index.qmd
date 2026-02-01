@@ -13,7 +13,3 @@ Embedded System is a combination of computer hardware and software designed to p
 
 The Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications.
 
-
-
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.

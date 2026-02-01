@@ -128,11 +128,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#raspberry-pi" id="toc-raspberry-pi" class="nav-link" data-scroll-target="#raspberry-pi">Raspberry Pi</a></li>
   <li><a href="#battery" id="toc-battery" class="nav-link" data-scroll-target="#battery">Battery</a></li>
   <li><a href="#display" id="toc-display" class="nav-link" data-scroll-target="#display">Display</a></li>
+  <li><a href="#keyboard" id="toc-keyboard" class="nav-link" data-scroll-target="#keyboard">Keyboard</a></li>
+  <li><a href="#case-3d-printed" id="toc-case-3d-printed" class="nav-link" data-scroll-target="#case-3d-printed">Case: 3D Printed</a></li>
   </ul></li>
-  <li><a href="#assembly" id="toc-assembly" class="nav-link" data-scroll-target="#assembly">Assembly</a></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a>
+  <li><a href="#assembly" id="toc-assembly" class="nav-link" data-scroll-target="#assembly">Assembly</a>
   <ul class="collapse">
-  <li><a href="#code-needed-for-the-display" id="toc-code-needed-for-the-display" class="nav-link" data-scroll-target="#code-needed-for-the-display">Code Needed for the Display</a></li>
+  <li><a href="#pi-battery" id="toc-pi-battery" class="nav-link" data-scroll-target="#pi-battery">Pi &amp; Battery</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -206,34 +207,88 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/20251221_134314.jpg" class="img-fluid" style="width:100.0%"></p>
 </div>
 </div>
-<section id="keyboard" class="level4">
-<h4 class="anchored" data-anchor-id="keyboard">Keyboard</h4>
+</section>
+<section id="keyboard" class="level3">
+<h3 class="anchored" data-anchor-id="keyboard">Keyboard</h3>
 <p>I used the Rii X1 Mini Wireless Keyboard with a Touchpad.</p>
 <p><img src="images/20251221_134835.jpg" class="img-fluid" style="width:50.0%"></p>
-<section id="case-3d-printed" class="level5">
-<h5 class="anchored" data-anchor-id="case-3d-printed">Case: 3D Printed</h5>
+</section>
+<section id="case-3d-printed" class="level3">
+<h3 class="anchored" data-anchor-id="case-3d-printed">Case: 3D Printed</h3>
 <p>Here you can find the STL files, feel free to use and modify them.</p>
 <p>Obviously, as this is the first version and my first time doing such thing, the case is not the most fancy, it is a regular streight forward lame one with some flaws but it does the job! More sofisticated versions will be created in the future.</p>
 </section>
 </section>
-</section>
-</section>
 <section id="assembly" class="level2">
 <h2 class="anchored" data-anchor-id="assembly">Assembly</h2>
-<p>Below in the figure 1 you can see</p>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">Code</h2>
-<p>Here you will find the code that you need for a couple of parts.</p>
-<section id="code-needed-for-the-display" class="level3">
-<h3 class="anchored" data-anchor-id="code-needed-for-the-display">Code Needed for the Display</h3>
-<p>In order to regulate the brightness on the display you need to open the terminal on your Pi and copy these lines</p>
-<section id="code-needed-for-the-pisugar" class="level4">
-<h4 class="anchored" data-anchor-id="code-needed-for-the-pisugar">Code Needed for the PiSugar</h4>
-<p>To be abel to configure your the button on the PiSugar you will need to open</p>
+<section id="pi-battery" class="level3">
+<h3 class="anchored">Pi &amp; Battery</h3>
+<p>It is a bit narrow while assembeling it but it works. You have to connect everything outside and put all the parts in one go.</p>
+<p>In the first picture below, you can see the battery wires are going to the left, there the battery will sitting minding its own buissnes.</p>
+<p>For the Pi and the Pisugar PCB board, on the inner side (you cant see it here), there are two wholes to screw it in its place.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><img src="images/20260201_120223.jpg" class="img-fluid" style="width:100.0%"></p>
+</div><div class="column" style="width:4%;">
+<!-- empty column = gap -->
+</div><div class="column" style="width:48%;">
+<p><img src="images/20260201_120312.jpg" class="img-fluid" style="width:100.0%"></p>
+</div><p>In the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going threw an opening to connect on the other side with the display.</p><section id="keyboard-display" class="level3">
+<h3 class="anchored" data-anchor-id="keyboard-display">Keyboard &amp; Display</h3>
+<p>Here as you can see the keyboard is inserted from the side and then secured by this small printed piece (see Pic.1). A side view is shown in Pic.2 of how this piece would look like.</p>
+<p>For the display it is mounted on a mount printed for this diplay specifically, that is then mouted on the main deck with four screws as seen in Pic.1.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><img src="images/20260201_120754.jpg" class="img-fluid" style="width:100.0%"></p>
+</div><div class="column" style="width:4%;">
+<!-- empty column = gap -->
+</div><div class="column" style="width:48%;">
+<p><img src="images/20260201_121010.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+</section><section id="gpio-pins" class="level3">
+<h3 class="anchored" data-anchor-id="gpio-pins">GPIO pins</h3>
+<p>The purpose of the opening that you can see next to the sceen, is to relocate the GPIO pins to have access to them in a convienient way. In the pictures you can see how it would look.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><img src="images/20260201_121559.jpg" class="img-fluid" style="width:100.0%"></p>
+</div><div class="column" style="width:4%;">
+<!-- empty column = gap -->
+</div><div class="column" style="width:48%;">
+<p><img src="images/20260201_121658.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+</section><section id="end-result" class="level2">
+<h2 class="anchored" data-anchor-id="end-result">End Result</h2>
+<p>Here you can see the end result from all sides.</p>
+<p>As you can see there is no buttons is this project, I just kept an opening to the Pisugar buttons. There is a button on the PCB of the Pisugar that you can configure and for now I confugured it to shutdown when double clicked.</p>
+<p>To turn on the Pi also on the PCB of the Pisugar there is an ON/OFF switch that when tured on will start the Pi.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><img src="images/20260201_122152.jpg" class="img-fluid" style="width:100.0%"></p>
+</div><div class="column" style="width:4%;">
+<!-- empty column = gap -->
+</div><div class="column" style="width:48%;">
+<p><img src="images/20260201_121242.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<p>Pushing these buttons with your finger can be annoying, so using a screw driver like the one shown in the picture or any pen works fine.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><img src="images/20260201_121108.jpg" class="img-fluid" style="width:100.0%"></p>
+</div><div class="column" style="width:4%;">
+<!-- empty column = gap -->
+</div><div class="column" style="width:48%;">
+<p><img src="images/20260201_121141.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+</section><section id="limitations-future-fixes" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-future-fixes">Limitations &amp; Future Fixes</h2>
+<p>As this is the first version</p>
 
 
 </section>
+</div>
 </section>
 </section>
 

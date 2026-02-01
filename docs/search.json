@@ -11,7 +11,7 @@
     "href": "index.html#internet-of-things-iot",
     "title": "Welcome to PiVault",
     "section": "Internet of Things (IoT)",
-    "text": "Internet of Things (IoT)\nThe Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications.\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "Internet of Things (IoT)\nThe Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications."
   },
   {
     "objectID": "Cyberdeck.html",
@@ -25,14 +25,14 @@
     "href": "Cyberdeck.html#materials",
     "title": "CyberDeck",
     "section": "Materials",
-    "text": "Materials\nMaterials used in this project:\n\nRaspberry Pi 4B\nBattery with a 5v/3A output\n5 inch display\nKeyboard\nCase: was 3D printed\n\n\n\nRaspberry Pi\nThis is a Raspberry Pi 4B with 4GB LPDDR4 RAM, supports WiFi and Bluetooth, Gigabit Ethernet, two USB 3.0 and two USB 2.0 ports. It also contains dual micro HDMI and a USB-C power port and 40 pin GPIO header which I will be relocating in this Cyberdeck (See Assembly).\n\n\n\nBattery\nStarting with the power supply, depends on which battery you choose, you will have different configuration. In my case I chose the 5000 mAh PiSugar 2 plus battery.\n\n\n\n\n\n\n\n\n\nAs seen in the pictures above, this battery allows me to connect the PCB board directly on the Pi itself from below, and placing the battery on the PCB board stabilizing it with a magnet. However, I will be putting the battery itself next to the Raspberry Pi, rendering the magnets useless.\n\n\nDisplay\nFor the display I am using the Waveshare 5-inch DSI touch screen with 800 x 480 resolution.\n\n\n\n\n\n\n\n\n\n\nKeyboard\nI used the Rii X1 Mini Wireless Keyboard with a Touchpad.\n\n\nCase: 3D Printed\nHere you can find the STL files, feel free to use and modify them.\nObviously, as this is the first version and my first time doing such thing, the case is not the most fancy, it is a regular streight forward lame one with some flaws but it does the job! More sofisticated versions will be created in the future."
+    "text": "Materials\nMaterials used in this project:\n\nRaspberry Pi 4B\nBattery with a 5v/3A output\n5 inch display\nKeyboard\nCase: was 3D printed\n\n\n\nRaspberry Pi\nThis is a Raspberry Pi 4B with 4GB LPDDR4 RAM, supports WiFi and Bluetooth, Gigabit Ethernet, two USB 3.0 and two USB 2.0 ports. It also contains dual micro HDMI and a USB-C power port and 40 pin GPIO header which I will be relocating in this Cyberdeck (See Assembly).\n\n\n\nBattery\nStarting with the power supply, depends on which battery you choose, you will have different configuration. In my case I chose the 5000 mAh PiSugar 2 plus battery.\n\n\n\n\n\n\n\n\n\nAs seen in the pictures above, this battery allows me to connect the PCB board directly on the Pi itself from below, and placing the battery on the PCB board stabilizing it with a magnet. However, I will be putting the battery itself next to the Raspberry Pi, rendering the magnets useless.\n\n\nDisplay\nFor the display I am using the Waveshare 5-inch DSI touch screen with 800 x 480 resolution.\n\n\n\n\n\n\n\n\n\n\n\nKeyboard\nI used the Rii X1 Mini Wireless Keyboard with a Touchpad.\n\n\n\nCase: 3D Printed\nHere you can find the STL files, feel free to use and modify them.\nObviously, as this is the first version and my first time doing such thing, the case is not the most fancy, it is a regular streight forward lame one with some flaws but it does the job! More sofisticated versions will be created in the future."
   },
   {
     "objectID": "Cyberdeck.html#assembly",
     "href": "Cyberdeck.html#assembly",
     "title": "CyberDeck",
     "section": "Assembly",
-    "text": "Assembly\nBelow in the figure 1 you can see"
+    "text": "Assembly\n\nPi & Battery\nIt is a bit narrow while assembeling it but it works. You have to connect everything outside and put all the parts in one go.\nIn the first picture below, you can see the battery wires are going to the left, there the battery will sitting minding its own buissnes.\nFor the Pi and the Pisugar PCB board, on the inner side (you cant see it here), there are two wholes to screw it in its place.\n\n\n\n\n\n\n\nIn the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going threw an opening to connect on the other side with the display.\nKeyboard & Display\nHere as you can see the keyboard is inserted from the side and then secured by this small printed piece (see Pic.1). A side view is shown in Pic.2 of how this piece would look like.\nFor the display it is mounted on a mount printed for this diplay specifically, that is then mouted on the main deck with four screws as seen in Pic.1.\n\n\n\n\n\n\n\n\n\n\nGPIO pins\nThe purpose of the opening that you can see next to the sceen, is to relocate the GPIO pins to have access to them in a convienient way. In the pictures you can see how it would look.\n\n\n\n\n\n\n\n\n\n\nEnd Result\nHere you can see the end result from all sides.\nAs you can see there is no buttons is this project, I just kept an opening to the Pisugar buttons. There is a button on the PCB of the Pisugar that you can configure and for now I confugured it to shutdown when double clicked.\nTo turn on the Pi also on the PCB of the Pisugar there is an ON/OFF switch that when tured on will start the Pi.\n\n\n\n\n\n\n\n\n\nPushing these buttons with your finger can be annoying, so using a screw driver like the one shown in the picture or any pen works fine.\n\n\n\n\n\n\n\n\n\n\nLimitations & Future Fixes\nAs this is the first version"
   },
   {
     "objectID": "Cyberdeck.html#code",
@@ -40,5 +40,26 @@
     "title": "CyberDeck",
     "section": "Code",
     "text": "Code\nHere you will find the code that you need for a couple of parts.\n\nCode Needed for the Display\nIn order to regulate the brightness on the display you need to open the terminal on your Pi and copy these lines\n\nCode Needed for the PiSugar\nTo be abel to configure your the button on the PiSugar you will need to open"
+  },
+  {
+    "objectID": "Cyberdeck.html#end-product",
+    "href": "Cyberdeck.html#end-product",
+    "title": "CyberDeck",
+    "section": "End Product",
+    "text": "End Product"
+  },
+  {
+    "objectID": "Cyberdeck.html#end-result",
+    "href": "Cyberdeck.html#end-result",
+    "title": "CyberDeck",
+    "section": "End Result",
+    "text": "End Result\nHere you can see the end result from all sides.\nAs you can see there is no buttons is this project, I just kept an opening to the Pisugar buttons. There is a button on the PCB of the Pisugar that you can configure and for now I confugured it to shutdown when double clicked.\nTo turn on the Pi also on the PCB of the Pisugar there is an ON/OFF switch that when tured on will start the Pi.\n\n\n\n\n\n\n\n\n\nPushing these buttons with your finger can be annoying, so using a screw driver like the one shown in the picture or any pen works fine."
+  },
+  {
+    "objectID": "Cyberdeck.html#limitations-future-fixes",
+    "href": "Cyberdeck.html#limitations-future-fixes",
+    "title": "CyberDeck",
+    "section": "Limitations & Future Fixes",
+    "text": "Limitations & Future Fixes\nAs this is the first version"
   }
 ]

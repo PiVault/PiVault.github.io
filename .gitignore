@@ -8,3 +8,5 @@ venv/
 
 # R
 .Rhistory
+
+/.quarto/
