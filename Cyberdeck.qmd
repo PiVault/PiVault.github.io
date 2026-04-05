@@ -9,7 +9,7 @@ Cyberdecks are often inspired by cyberpunk aesthetics.
 
 In this project, I will be creating my first version of a cyberdeck. This first version will not particularly be a complex one since its the first one. The aim here is "Be as simple as possible".
 
-Since my first priority is simplicity, I will be skipping anything that require soldering, unless its absolutly necessary. I will be also settling for a straight forward case with an attempt to make it look cyberpunky.
+Since my first priority is simplicity, I will be skipping anything that require soldering, unless its absolutely necessary. I will be also settling for a straight forward case with an attempt to make it look cyberpunky.
 
 ---
 
@@ -26,14 +26,14 @@ Materials used in this project:
 ---
 ### Raspberry Pi
 
-This is a Raspberry Pi 4B with 4GB LPDDR4 RAM, supports WiFi and Bluetooth, Gigabit Ethernet, two USB 3.0 and two USB 2.0 ports. It also contains dual micro HDMI and a USB-C power port and 40 pin GPIO header which I will be relocating in this Cyberdeck (See Assembly).
+This is a Raspberry Pi 4B with 2GB LPDDR4 RAM, supports WiFi and Bluetooth, Gigabit Ethernet, two USB 3.0 and two USB 2.0 ports. It also contains dual micro HDMI and a USB-C power port and 40 pin GPIO header, which I will be relocating in this Cyberdeck (See Assembly).
 
 ![](images/20251221_133951.jpg){width="50%"}
 
 
-### Battery
+### BatteryAssembly
 
-Starting with the power supply, depends on which battery you choose, you will have different configuration. In my case I chose the 5000 mAh PiSugar 2 plus battery.
+Starting with the power supply, depending on which battery you choose, you will have different configurations. In my case, I chose the 5000 mAh PiSugar 2 plus battery.
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -49,12 +49,12 @@ Starting with the power supply, depends on which battery you choose, you will ha
 :::
 :::
 
-As seen in the pictures above, this battery allows me to connect the PCB board directly on the Pi itself from below, and placing the battery on the PCB board stabilizing it with a magnet. However, I will be putting the battery itself next to the Raspberry Pi, rendering the magnets useless.
+As seen in the pictures above, this battery allows me to connect the PCB board directly to the Pi itself from below, and to place the battery on the PCB board stabilizing it with magnets. However, I will be putting the battery itself next to the Raspberry Pi, rendering the magnets useless.
 
 
 ### Display
 
-For the display I am using the Waveshare 5-inch DSI touch screen with 800 x 480 resolution.
+For the display, I am using the Waveshare 5-inch DSI touch screen with 800 x 480 resolution.
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -84,19 +84,19 @@ Here you can find the STL files, feel free to use and modify them.
 
 [Download STL files](https://github.com/PiVault/PiVault.github.io/tree/main/stl)
 
-Obviously, as this is the first version and my first time doing such thing, the case is not the most fancy, it is a regular streight forward lame one with some flaws but it does the job!
-More sofisticated versions will be created in the future.
+Obviously, as this is the first version and my first time doing such thing, the case is not the most fancy, it is a regular straight forward lame one with some flaws but it does the job!
+More sophisticated versions will be created in the future.
 
 ## Assembly
 
 ### Pi & Battery
 
-It is a bit narrow while assembeling it but it works.
+It is a bit narrow while assembling it but it works.
 You have to connect everything outside and put all the parts in one go.
 
-In the first picture below, you can see the battery wires are going to the left, there the battery will sitting minding its own buissnes.
+In the first picture below, you can see the battery wires are going to the left, there the battery will be sitting minding its own business.
 
-For the Pi and the Pisugar PCB board, on the inner side (you cant see it here), there are two wholes to screw it in its place.
+For the Pi and the Pisugar PCB board, on the inner side (you cant see it here), there are two holes to screw it, stabilizing it in its place.
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -112,14 +112,14 @@ For the Pi and the Pisugar PCB board, on the inner side (you cant see it here), 
 :::
 :::
 
-In the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going threw an opening to connect on the other side with the display.
+In the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going through an opening to connect on the other side with the display.
 
 
 ### Keyboard & Display
 
-Here as you can see the keyboard is inserted from the side and then secured by this small printed piece (see Pic.1). A side view is shown in Pic.2 of how this piece would look like.
+Here as you can see the keyboard is inserted from the side and then secured by this small printed piece (see picture below on the left). A side view is shown in the picture below on the right of how this piece would look like.
 
-For the display it is mounted on a mount printed for this diplay specifically, that is then mouted on the main deck with four screws as seen in Pic.1.
+The display it is mounted on a mount printed for it specifically, that is then mounted on the main deck with four screws as seen on the left picture.
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -157,12 +157,12 @@ In the pictures you can see how it would look.
 
 ## End Result
 
-Here you can see the end result from all sides.
+Below the end result is shown from all sides.
 
-As you can see there is no buttons is this project, I just kept an opening to the Pisugar buttons.
-There is a button on the PCB of the Pisugar that you can configure and for now I confugured it to shutdown when double clicked.
+As you can see there is no buttons in this project, I just kept an opening for the Pisugar buttons.
+The PiSugar PCB includes a power switch that controls whether current is supplied to the Pi. When the switch is turned ON, it allows current to flow and powers the Pi.
 
-To turn on the Pi also on the PCB of the Pisugar there is an ON/OFF switch that when tured on will start the Pi.
+Additionally, there is a configurable button on the PCB. I have set it so that a double-click shuts down the Pi.
 
 
 ::: {.columns}
@@ -197,4 +197,6 @@ Pushing these buttons with your finger can be annoying, so using a screw driver 
 
 ## Limitations & Future Fixes
 
-
+- The 3D printed case need to be improved to have a better design, especially the part that holds the keyboard, it is not the most secure one.
+- Buttons need to be added, using a screw driver or a pen is not ideal.
+- The Raspberry Pi 4B with only 2 GB of RAM is quite slow, upgrading to a newer model is always a good idea.
