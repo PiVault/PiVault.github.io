@@ -19,6 +19,7 @@ format:
   html:
     theme: darkly
     toc: true
+    toc-location: left
     toc-depth: 3
     toc-expand: true
 
