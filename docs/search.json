@@ -4,24 +4,14 @@
     "href": "index.html#embedded-system",
     "title": "Welcome to PiVault",
     "section": "Embedded System",
-    "text": "Embedded System\nEmbedded System is a combination of computer hardware and software designed to perform a specific, dedicated function. It can be a small, independent system or a large integrated system, typically operating in real time and without dependence on internet connectivity.",
-    "crumbs": [
-      "Home",
-      "PiVault",
-      "Welcome to PiVault"
-    ]
+    "text": "Embedded System\nEmbedded System is a combination of computer hardware and software designed to perform a specific, dedicated function. It can be a small, independent system or a large integrated system, typically operating in real time and without dependence on internet connectivity."
   },
   {
     "objectID": "index.html#internet-of-things-iot",
     "href": "index.html#internet-of-things-iot",
     "title": "Welcome to PiVault",
     "section": "Internet of Things (IoT)",
-    "text": "Internet of Things (IoT)\nThe Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications.",
-    "crumbs": [
-      "Home",
-      "PiVault",
-      "Welcome to PiVault"
-    ]
+    "text": "Internet of Things (IoT)\nThe Internet of Things (IoT) refers to embedded systems that are connected to the internet to collect, send, or receive data. These systems integrate hardware, software, and networking to enable remote monitoring, control, and automation of devices through cloud services or applications."
   },
   {
     "objectID": "Cyberdeck.html",
@@ -43,20 +33,6 @@
     "title": "CyberDeck",
     "section": "Assembly",
     "text": "Assembly\n\nPi & Battery\nIt is a bit narrow while assembling it but it works. You have to connect everything outside and put all the parts in one go.\nIn the first picture below, you can see the battery wires are going to the left, there the battery will be sitting minding its own business.\nFor the Pi and the Pisugar PCB board, on the inner side (you cant see it here), there are two holes to screw it, stabilizing it in its place.\n\n\n\n\n\n\n\n\n\nIn the picture on the right you can see the display serial interface ribbon cable (flat-flex cable/FFC) going through an opening to connect on the other side with the display.\n\n\nKeyboard & Display\nHere as you can see the keyboard is inserted from the side and then secured by this small printed piece (see picture below on the left). A side view is shown in the picture below on the right of how this piece would look like.\nThe display it is mounted on a mount printed for it specifically, that is then mounted on the main deck with four screws as seen on the left picture.\n\n\n\n\n\n\n\n\n\n\n\nGPIO pins\nThe purpose of the opening that you can see next to the sceen, is to relocate the GPIO pins to have access to them in a convienient way. In the pictures you can see how it would look."
-  },
-  {
-    "objectID": "Cyberdeck.html#code",
-    "href": "Cyberdeck.html#code",
-    "title": "CyberDeck",
-    "section": "Code",
-    "text": "Code\nHere you will find the code that you need for a couple of parts.\n\nCode Needed for the Display\nIn order to regulate the brightness on the display you need to open the terminal on your Pi and copy these lines\n\nCode Needed for the PiSugar\nTo be abel to configure your the button on the PiSugar you will need to open"
-  },
-  {
-    "objectID": "Cyberdeck.html#end-product",
-    "href": "Cyberdeck.html#end-product",
-    "title": "CyberDeck",
-    "section": "End Product",
-    "text": "End Product"
   },
   {
     "objectID": "Cyberdeck.html#end-result",
